@@ -1,0 +1,207 @@
+/* Header tag */
+* {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    ;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* To allign one item on left and one item on right */
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+
+
+}
+
+.links:hover {
+    color: red;
+
+}
+
+/* home section */
+.home{
+    margin-top: 100px;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 30px 0px;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+    left: 40px;
+}
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.heading h3{
+    color: green;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    margin-bottom: 10px;
+}
+.info-box span{
+    margin-left: 9px;
+}
+/* skillls section */
+#skills{
+    margin-top: 100px;
+}
+.headind{
+    text-align: center;
+}
+.headind h2{
+    color: green;
+}
+#about{
+    margin-top: 200px;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about_details{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+.progress-bar{
+    margin-left: 70px;
+    padding-left: 40px;
+}
+.bar-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+}
+.base-bar{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    background-color: orange;
+    width: 95%;
+}
+.css-bar {
+    background-color: orange;
+    width: 80%;
+}
+.js-bar {
+    background-color: orange;
+    width: 75%;
+}
+.angular-bar {
+    background-color: orange;
+    width: 80%;
+}
+.skill-image img{
+    width: 66%;
+    padding-left: 20px;
+}
+#contact{
+    margin-top: 100px;
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,red);
+    animation: shake 1s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+.up-arrow{
+    height: 50px;
+    width: 50px;
+    ;
+}
